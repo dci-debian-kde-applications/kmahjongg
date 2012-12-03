@@ -1,0 +1,33 @@
+Source: kmahjongg
+Priority: extra
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+Build-Depends: cmake,
+               debhelper (>= 8.0.0),
+               pkg-kde-tools,
+               kdelibs5-dev (>= 4:4.9.80),
+               libkdegames-dev (>= 4:4.9.80),
+               libkmahjongglib-dev (>= 4:4.9.80)
+Standards-Version: 3.9.3
+Section: libs
+Homepage: http://www.kde.org
+
+Package: kdegames-mahjongg-data
+Architecture: all
+Depends: ${misc:Depends}
+Description: tilesets and backgrounds for Mahjongg games
+ This package contains a collection of tilesets and backgrounds for KMahjongg
+ and KShisen.
+ .
+ This package is part of the KDE games module.
+
+Package: kmahjongg
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, kdegames-mahjongg-data (>= ${source:Version}),
+ kdegames-data
+Description: mahjongg solitaire game
+ KMahjongg is a solitaire game where the player removes matching Mahjongg tiles
+ to clear the board.  A variety of tile layouts are included, as well as an
+ editor to create new layouts.
+ .
+ This package is part of the KDE games module.
+
