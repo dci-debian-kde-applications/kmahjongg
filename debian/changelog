@@ -1,7 +1,6 @@
 kmahjongg (4:4.9.90-0ubuntu1) UNRELEASED; urgency=low
 
   * Initial release
-  * PPA build
   * New package kmahjongg-data
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 03 Dec 2012 17:39:45 +0000
