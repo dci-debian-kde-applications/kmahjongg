@@ -7,6 +7,10 @@ Copyright: 1997 Mathias Mueller <in5y158@public.uni-hamburg.de>
            2006-2007 Mauricio Piacentini <mauricio@tabuleiro.com>
 License: GPL-2+
 
+Files: doc/index.docbook
+Copyright: 2005 John Hayes <justlinux@bellsouth.net>
+License: GFDL-1.2
+
 Files: debian/*
 Copyright: 2012 Jonathan Riddell <jriddell@ubuntu.com>
 License: GPL-2+
@@ -28,3 +32,13 @@ License: GPL-2+
  On Debian systems, the complete text of the GNU General
  Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
 
+License: GFDL-1.2
+ Permission is granted to copy, distribute and/or modify this document
+ under the terms of the GNU Free Documentation License, Version 1.2
+ or any later version published by the Free Software Foundation;
+ with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+ A copy of the license is included in the section entitled "GNU
+ Free Documentation License".
+ .
+ On Debian systems, the complete text of the GNU Free Documentation License
+ version 1.2 can be found in "/usr/share/common-licenses/GFDL-1.2".
