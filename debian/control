@@ -4,7 +4,7 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Build-Depends: cmake,
                debhelper (>= 8.0.0),
                pkg-kde-tools,
-               kdelibs5-dev (>= 4:4.9.95),
+               kdelibs5-dev (>= 4:4.9.97),
                libkdegames-dev (>= 4:4.9.90),
                libkmahjongglib-dev (>= 4:4.9.90)
 Standards-Version: 3.9.3
