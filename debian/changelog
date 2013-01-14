@@ -1,3 +1,9 @@
+kmahjongg (4:4.9.97-0ubuntu2) raring; urgency=low
+
+  * Add transitional package for kdegames-mahjongg-data
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 14 Jan 2013 14:01:38 +0000
+
 kmahjongg (4:4.9.97-0ubuntu1) raring; urgency=low
 
   * New upstream release candidate

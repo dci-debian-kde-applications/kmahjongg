@@ -14,8 +14,8 @@ Homepage: http://www.kde.org
 Package: kmahjongg-data
 Architecture: all
 Depends: ${misc:Depends}
-Replaces: kdegames-mahjongg-data
-Breaks: kdegames-mahjongg-data
+Replaces: kdegames-mahjongg-data (<< 4:4.9.97-0ubuntu2)
+Breaks: kdegames-mahjongg-data (<< 4:4.9.97-0ubuntu2)
 Description: tilesets and backgrounds for kmahjongg
  This package contains a collection of tilesets and backgrounds for KMahjongg.
  .
@@ -31,4 +31,11 @@ Description: mahjongg solitaire game
  editor to create new layouts.
  .
  This package is part of the KDE games module.
+
+Package: kdegames-mahjongg-data
+Architecture: all
+Depends: kmahjongg-data
+Description: dummy package now renamed to kmahjongg-data
+ Dummy transitional package for kmahjongg-data
+
 
