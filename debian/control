@@ -34,6 +34,7 @@ Description: mahjongg solitaire game
 
 Package: kdegames-mahjongg-data
 Architecture: all
+Section: oldlibs
 Depends: kmahjongg-data
 Description: dummy package now renamed to kmahjongg-data
  Dummy transitional package for kmahjongg-data
