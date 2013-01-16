@@ -1,4 +1,4 @@
-kmahjongg (4:4.9.97-0ubuntu3) UNRELEASED; urgency=low
+kmahjongg (4:4.9.97-0ubuntu3) raring; urgency=low
 
   * Put transitional package into section oldlibs
 
