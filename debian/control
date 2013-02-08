@@ -14,8 +14,8 @@ Homepage: http://www.kde.org
 Package: kmahjongg-data
 Architecture: all
 Depends: ${misc:Depends}
-Replaces: kdegames-mahjongg-data (<< 4:4.9.97-0ubuntu2), kmahjongg (<< 4:4.10-0ubuntu2)
-Breaks: kdegames-mahjongg-data (<< 4:4.9.97-0ubuntu2), kmahjongg (<< 4:4.10-0ubuntu2)
+Replaces: kdegames-mahjongg-data (<< 4:4.9.97-0ubuntu2), kmahjongg (<< 4:4.10.0-0ubuntu3)
+Breaks: kdegames-mahjongg-data (<< 4:4.9.97-0ubuntu2), kmahjongg (<< 4:4.10.0-0ubuntu3)
 Description: tilesets and backgrounds for kmahjongg
  This package contains a collection of tilesets and backgrounds for KMahjongg.
  .

@@ -1,3 +1,9 @@
+kmahjongg (4:4.10.0-0ubuntu3) raring; urgency=low
+
+  * Fix versioning, 4.10 should have been 4.10.0
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Fri, 08 Feb 2013 16:22:31 +0530
+
 kmahjongg (4:4.10.0-0ubuntu2) raring; urgency=low
 
   * kmahjongg-data Breaks/Replaces kmahjongg to support upgrades from
