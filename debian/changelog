@@ -1,3 +1,10 @@
+kmahjongg (4:4.10.0-0ubuntu4) raring; urgency=low
+
+  * kmahjongg-data Breaks/Replaces kmahjongg << 4:4.10.0-0ubuntu3~ instead
+    to support backport versions
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sat, 23 Feb 2013 13:58:18 +0100
+
 kmahjongg (4:4.10.0-0ubuntu3) raring; urgency=low
 
   * Fix versioning, 4.10 should have been 4.10.0
