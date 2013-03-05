@@ -1,8 +1,8 @@
-kmahjongg (4:4.10.1-0ubuntu1) UNRELEASED; urgency=low
+kmahjongg (4:4.10.1-0ubuntu1) raring-proposed; urgency=low
 
   * New upstream bugfix release
 
- -- Philip Muškovac <yofel@kubuntu.org>  Fri, 01 Mar 2013 21:38:08 +0100
+ -- Philip Muškovac <yofel@kubuntu.org>  Tue, 05 Mar 2013 16:28:44 +0000
 
 kmahjongg (4:4.10.0-0ubuntu4) raring; urgency=low
 
