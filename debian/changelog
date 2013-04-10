@@ -1,6 +1,6 @@
-kmahjongg (4:4.10.2-1) UNRELEASED; urgency=low
+kmahjongg (4:4.10.2-1) experimental; urgency=low
 
   * First release of kdegames after being split by upstream.
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 08 Apr 2013 13:50:03 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 10 Apr 2013 13:03:05 +0200
 
