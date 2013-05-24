@@ -1,42 +1,39 @@
 Source: kmahjongg
-Priority: extra
-Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
-Build-Depends: cmake,
-               debhelper (>= 8.0.0),
-               pkg-kde-tools,
-               kdelibs5-dev (>= 4:4.10.2),
-               libkdegames-dev (>= 4:4.10.2),
-               libkmahjongglib-dev (>= 4:4.9.90)
-Standards-Version: 3.9.3
 Section: games
-Homepage: http://www.kde.org
-
-Package: kmahjongg-data
-Architecture: all
-Depends: ${misc:Depends}
-Replaces: kdegames-mahjongg-data (<< 4:4.9.97-0ubuntu2), kmahjongg (<< 4:4.10.0-0ubuntu3~)
-Breaks: kdegames-mahjongg-data (<< 4:4.9.97-0ubuntu2), kmahjongg (<< 4:4.10.0-0ubuntu3~)
-Description: tilesets and backgrounds for kmahjongg
- This package contains a collection of tilesets and backgrounds for KMahjongg.
- .
- This package is part of the KDE games module.
+Priority: optional
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+XSBC-Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Daniel Schepler <schepler@debian.org>,
+ Sune Vuorela <sune@debian.org>,
+ Fathi Boudra <fabo@debian.org>,
+ Modestas Vainius <modax@debian.org>,
+ George Kiagiadakis <gkiagiad@csd.uoc.gr>,
+ Eshat Cakar <info@eshat.de>,
+ Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
+ Maximiliano Curia <maxy@debian.org>
+Build-Depends: kde-sc-dev-latest (>= 4:4.10.2),
+ cmake, debhelper (>= 9), pkg-kde-tools (>= 0.14),
+ kdelibs5-dev (>= 4:4.10),
+ libkdegames-dev (>= 4:4.10),
+ libkmahjongglib-dev (>= 4:4.10)
+Standards-Version: 3.9.4
+Homepage: http://games.kde.org/
+Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kmahjongg
+Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kmahjongg
+X-Debian-Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kmahjongg.git
+X-Debian-Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kmahjongg.git
 
 Package: kmahjongg
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, kmahjongg-data (>= ${source:Version}),
- kdegames-data
+Depends: ${shlibs:Depends}, ${misc:Depends},
+         kdegames-mahjongg-data (>= 4:4.10)
+Recommends: khelpcenter4
+Replaces: kmahjongg-data
+Breaks: kmahjongg-data
 Description: mahjongg solitaire game
  KMahjongg is a solitaire game where the player removes matching Mahjongg tiles
  to clear the board.  A variety of tile layouts are included, as well as an
  editor to create new layouts.
  .
  This package is part of the KDE games module.
-
-Package: kdegames-mahjongg-data
-Architecture: all
-Section: oldlibs
-Depends: kmahjongg-data
-Description: dummy package now renamed to kmahjongg-data
- Dummy transitional package for kmahjongg-data
-
 
