@@ -1,8 +1,8 @@
-kmahjongg (4:4.10.90-0ubuntu1) UNRELEASED; urgency=low
+kmahjongg (4:4.10.90-0ubuntu1) saucy; urgency=low
 
   * New upstream bet release
 
- -- Michał Zając <quintasan@kubuntu.org>  Thu, 27 Jun 2013 02:53:13 +0200
+ -- Michał Zając <quintasan@kubuntu.org>  Fri, 28 Jun 2013 18:17:26 +0100
 
 kmahjongg (4:4.10.80-0ubuntu1) saucy; urgency=low
 
