@@ -1,8 +1,8 @@
-kmahjongg (4:4.12.97-0ubuntu1) UNRELEASED; urgency=medium
+kmahjongg (4:4.12.97-0ubuntu1) trusty; urgency=medium
 
   * New upstream release candidate
 
- -- Philip Muškovac <yofel@kubuntu.org>  Fri, 28 Mar 2014 02:02:20 +0100
+ -- Philip Muškovac <yofel@kubuntu.org>  Tue, 01 Apr 2014 18:42:46 +0200
 
 kmahjongg (4:4.12.95-0ubuntu1) trusty; urgency=medium
 
