@@ -1,3 +1,15 @@
+kmahjongg (4:4.13.1-1ubuntu1) UNRELEASED; urgency=medium
+
+  * Merge with debian, no remaining changes
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Mon, 16 Jun 2014 19:49:31 +0200
+
+kmahjongg (4:4.13.1-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 23 May 2014 12:54:49 +0200
+
 kmahjongg (4:4.13.0-0ubuntu1) trusty; urgency=medium
 
   * New upstream KDE Software Compilation release
@@ -22,11 +34,32 @@ kmahjongg (4:4.12.90-0ubuntu1) trusty; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 19 Mar 2014 11:03:01 +0000
 
+kmahjongg (4:4.12.3-2) unstable; urgency=medium
+
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 28 Apr 2014 12:25:21 +0200
+
+kmahjongg (4:4.12.3-1) experimental; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Mar 2014 00:06:16 +0100
+
 kmahjongg (4:4.12.3-0ubuntu1) trusty; urgency=medium
 
   * New upstream bugfix release
 
  -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 04 Mar 2014 20:53:06 +0100
+
+kmahjongg (4:4.12.2-1) experimental; urgency=medium
+
+  * Do not disable an empty test set.
+  * Bump Standards-Version to 3.9.5, no changes needed.
+  * New upstream release.
+  * Bump kde-sc-dev-latest build dependency.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 10 Feb 2014 11:32:28 +0100
 
 kmahjongg (4:4.12.2-0ubuntu1) trusty; urgency=medium
 
@@ -63,6 +96,19 @@ kmahjongg (4:4.11.80-0ubuntu1) trusty; urgency=low
   * New upstream beta release
 
  -- Rohan Garg <rohangarg@kubuntu.org>  Sat, 23 Nov 2013 17:43:41 +0100
+
+kmahjongg (4:4.11.3-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update build dependencies.
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 07 Nov 2013 14:28:07 +0100
+
+kmahjongg (4:4.11.2-1) experimental; urgency=low
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 07 Oct 2013 15:29:18 +0200
 
 kmahjongg (4:4.11.2-0ubuntu1) saucy; urgency=low
 
@@ -109,6 +155,19 @@ kmahjongg (4:4.10.80-0ubuntu1) saucy; urgency=low
   * New upstream release
 
  -- Rohan Garg <rohangarg@kubuntu.org>  Fri, 21 Jun 2013 01:24:06 +0100
+
+kmahjongg (4:4.10.5-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 12 Jul 2013 16:45:32 +0200
+
+kmahjongg (4:4.10.4-1) experimental; urgency=low
+
+  * New upstream release.
+  * Update vcs fields.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 14 Jun 2013 16:33:33 +0200
 
 kmahjongg (4:4.10.4-0ubuntu1) saucy-proposed; urgency=low
 
