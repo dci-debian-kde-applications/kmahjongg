@@ -1,8 +1,7 @@
 Source: kmahjongg
 Section: games
 Priority: optional
-Maintainer: Debian/Ubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-X-Ubuntu-Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Daniel Schepler <schepler@debian.org>,
            Sune Vuorela <sune@debian.org>,
            Fathi Boudra <fabo@debian.org>,
@@ -16,19 +15,17 @@ Build-Depends: cmake,
                kde-sc-dev-latest (>= 4:4.12),
                kdelibs5-dev (>= 4:4.11),
                libkdegames-dev (>= 4:4.11),
-               libkmahjongglib-dev (>= 4:4.11),
+               libkmahjongglib-dev (>= 4:14.11.95),
                pkg-kde-tools (>= 0.14)
 Standards-Version: 3.9.5
 Homepage: http://games.kde.org/
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kmahjongg.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kmahjongg.git
-X-Ubuntu-Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kmahjongg
-X-Ubuntu-Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kmahjongg
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-applications/kmahjongg.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/kmahjongg.git
 
 Package: kmahjongg
 Architecture: any
 Depends: kdegames-mahjongg-data (>= 4:4.10), ${misc:Depends}, ${shlibs:Depends}
-Recommends: khelpcenter4
+Recommends: khelpcenter
 Description: mahjongg solitaire game
  KMahjongg is a solitaire game where the player removes matching Mahjongg tiles
  to clear the board.  A variety of tile layouts are included, as well as an
