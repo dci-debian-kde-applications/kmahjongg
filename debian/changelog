@@ -1,8 +1,19 @@
-kmahjongg (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
+kmahjongg (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Clive Johnston ]
   * New upstream release
 
+  [ Scarlett Clark ]
+  * Debian merge: No remaining changes.
+  * New upstream release. 
+
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 14:02:39 +0000
+
+kmahjongg (4:15.08.3-1) unstable; urgency=medium
+
+  * New upstream release (15.08.3).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 02 Dec 2015 12:39:51 +0100
 
 kmahjongg (4:15.08.2-0ubuntu1) wily; urgency=medium
 
@@ -15,6 +26,15 @@ kmahjongg (4:15.08.1-0ubuntu1) wily; urgency=medium
   * New upstream release (15.08.1)
 
  -- Clive Johnston <clivejo@aol.com>  Tue, 22 Sep 2015 17:06:57 +0100
+
+kmahjongg (4:15.08.0-1) unstable; urgency=medium
+
+  * New upstream release (15.04.0).
+  * New upstream release (15.04.2).
+  * New upstream release (15.04.3).
+  * New upstream release (15.08.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 19 Sep 2015 19:10:41 +0200
 
 kmahjongg (4:15.08.0-0ubuntu1) wily; urgency=medium
 
@@ -45,6 +65,13 @@ kmahjongg (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 13 Mar 2015 14:27:17 -0700
 
+kmahjongg (4:14.12.2-1) experimental; urgency=medium
+
+  * New upstream release (14.12.2).
+  * Bump Standards-Version to 3.9.6, no changes needed.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 23 Feb 2015 11:11:23 +0100
+
 kmahjongg (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
@@ -66,12 +93,12 @@ kmahjongg (4:14.11.97-0ubuntu1) vivid; urgency=medium
 
 kmahjongg (4:14.11.95-0ubuntu1) vivid; urgency=medium
 
-  * Initial release for KDE applications 14.12 series 
+  * Initial release for KDE applications 14.12 series
    - Change maintainer to Debian/Kubuntu
    - Remove X-Ubuntu entries no longer applicable.
-   - Fix Watch file applications locations 
+   - Fix Watch file applications locations
    - Fix VCS for new kde-applications location
-  * Debian merge, no remaining changes. 
+  * Debian merge, no remaining changes.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 26 Nov 2014 13:43:31 +0000
 
@@ -400,4 +427,3 @@ kmahjongg (4:4.9.90-0ubuntu1) raring-proposed; urgency=low
   * New package kmahjongg-data
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 07 Dec 2012 17:58:38 +0000
-
