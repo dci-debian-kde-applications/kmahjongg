@@ -1,4 +1,4 @@
-kmahjongg (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
+kmahjongg (4:15.12.1-0ubuntu1) xenial; urgency=medium
 
   [ Clive Johnston ]
   * New upstream release
@@ -7,7 +7,7 @@ kmahjongg (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
   * Debian merge: No remaining changes.
   * New upstream release. 
 
- -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 14:02:39 +0000
+ -- Clive Johnston <clivejo@aol.com>  Wed, 09 Mar 2016 10:51:19 +0100
 
 kmahjongg (4:15.08.3-1) unstable; urgency=medium
 
