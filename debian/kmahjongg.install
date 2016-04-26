@@ -1,6 +1,7 @@
 usr/games/kmahjongg
-usr/share/applications/kde4/kmahjongg.desktop
-usr/share/doc/kde/HTML/en/kmahjongg/*
+usr/share/applications/org.kde.kmahjongg.desktop
+usr/share/config.kcfg/kmahjongg.kcfg
+usr/share/doc/HTML/*/kmahjongg/
 usr/share/icons/hicolor/128x128/apps/kmahjongg.png
 usr/share/icons/hicolor/16x16/apps/kmahjongg.png
 usr/share/icons/hicolor/22x22/apps/kmahjongg.png
@@ -8,5 +9,4 @@ usr/share/icons/hicolor/32x32/apps/kmahjongg.png
 usr/share/icons/hicolor/48x48/apps/kmahjongg.png
 usr/share/icons/hicolor/64x64/apps/kmahjongg.png
 usr/share/icons/hicolor/scalable/apps/kmahjongg.svgz
-usr/share/kde4/apps/kmahjongg/*
-usr/share/kde4/config.kcfg/kmahjongg.kcfg
+usr/share/kmahjongg/
