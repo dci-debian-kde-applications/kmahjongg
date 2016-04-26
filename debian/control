@@ -10,14 +10,27 @@ Uploaders: Daniel Schepler <schepler@debian.org>,
            Eshat Cakar <info@eshat.de>,
            Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
            Maximiliano Curia <maxy@debian.org>
-Build-Depends: cmake,
+Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
+               extra-cmake-modules (>= 1.2.0~),
                kde-sc-dev-latest (>= 4:4.12),
                kdelibs5-dev,
+               kdoctools-dev (>= 5.15.0~),
                libkdegames-dev (>= 4:14.12.2),
+               libkf5config-dev (>= 5.15.0~),
+               libkf5coreaddons-dev (>= 5.15.0~),
+               libkf5crash-dev (>= 5.15.0~),
+               libkf5dbusaddons-dev (>= 5.15.0~),
+               libkf5declarative-dev (>= 5.15.0~),
+               libkf5kdegames-dev (>= 4.9.0~),
+               libkf5kmahjongglib-dev,
+               libkf5newstuff-dev (>= 5.15.0~),
+               libkf5xmlgui-dev (>= 5.15.0~),
                libkmahjongglib-dev (>= 4:14.11.95),
-               pkg-kde-tools (>= 0.14)
-Standards-Version: 3.9.6
+               libqt5svg5-dev (>= 5.2.0~),
+               pkg-kde-tools (>= 0.14),
+               qtbase5-dev (>= 5.2.0~)
+Standards-Version: 3.9.8
 Homepage: http://games.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kmahjongg.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kmahjongg.git

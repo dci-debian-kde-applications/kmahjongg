@@ -1,3 +1,12 @@
+kmahjongg (4:16.04.0-1~1.gbp2e7f56) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @2e7f565d6ab040837b0daa6d8a6fe5ff4a7a8d4d **
+
+  * Bump Standards-Version to 3.9.8
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 04:12:12 +0200
+
 kmahjongg (4:15.12.2-1~) UNRELEASED; urgency=medium
 
   * New upstream release (15.12.2).
