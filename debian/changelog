@@ -1,6 +1,6 @@
-kmahjongg (4:16.04.0-1~2.gbpf8943e) UNRELEASED; urgency=medium
+kmahjongg (4:16.04.0-1~3.gbpe7e943) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @f8943e2cc1f8d18360f1790fee364cd018983fef **
+  ** SNAPSHOT build @e7e9439ecf3593226cc0e996f388254bc107255a **
 
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
@@ -8,6 +8,7 @@ kmahjongg (4:16.04.0-1~2.gbpf8943e) UNRELEASED; urgency=medium
 
   [ Rohan Garg ]
   * Fix package depends on kdegames-mahjongg-data-kf5
+  * Make sure we depend on the right frameworks package
 
   [ Maximiliano Curia ]
   * Remove menu file and friends
@@ -17,7 +18,7 @@ kmahjongg (4:16.04.0-1~2.gbpf8943e) UNRELEASED; urgency=medium
   * Drop kde4 build deps
   * Update install files
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 26 Apr 2016 14:18:19 +0200
+ -- Rohan Garg <rohan@garg.io>  Tue, 17 May 2016 13:31:10 +0200
 
 kmahjongg (4:15.08.3-1) unstable; urgency=medium
 
