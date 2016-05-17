@@ -8,6 +8,7 @@ kmahjongg (4:16.04.0-1~1.gbp2e7f56) UNRELEASED; urgency=medium
 
   [ Rohan Garg ]
   * Fix package depends on kdegames-mahjongg-data-kf5
+  * Use version 3 of rules
 
  -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 04:12:12 +0200
 
