@@ -1,6 +1,4 @@
-kmahjongg (4:16.04.0-1~4.gbpf1256f) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @f1256f0843b9b9407a9ed848322ea0dafd8201b2 **
+kmahjongg (4:16.04.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
@@ -8,8 +6,6 @@ kmahjongg (4:16.04.0-1~4.gbpf1256f) UNRELEASED; urgency=medium
 
   [ Rohan Garg ]
   * Fix package depends on kdegames-mahjongg-data-kf5
-  * Use version 3 of rules
-  * Update install file
   * Make sure we depend on the right frameworks package
   * Use version 3 of rules
   * Update install file
@@ -22,7 +18,7 @@ kmahjongg (4:16.04.0-1~4.gbpf1256f) UNRELEASED; urgency=medium
   * Drop kde4 build deps
   * Update install files
 
- -- Rohan Garg <rohan@garg.io>  Tue, 17 May 2016 14:18:02 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 28 May 2016 19:34:07 +0200
 
 kmahjongg (4:15.08.3-1) unstable; urgency=medium
 
