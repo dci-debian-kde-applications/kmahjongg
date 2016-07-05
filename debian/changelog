@@ -1,23 +1,24 @@
-kmahjongg (4:16.04.1-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Wed, 18 May 2016 18:17:07 +0200
-
-kmahjongg (4:16.04.0-1~1.gbp2e7f56) UNRELEASED; urgency=medium
+kmahjongg (4:16.04.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @2e7f565d6ab040837b0daa6d8a6fe5ff4a7a8d4d **
-
   * Bump Standards-Version to 3.9.8
   * Update build-deps and deps with the info from cmake
 
   [ Rohan Garg ]
   * Fix package depends on kdegames-mahjongg-data-kf5
+  * Make sure we depend on the right frameworks package
   * Use version 3 of rules
   * Update install file
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 04:12:12 +0200
+  [ Maximiliano Curia ]
+  * Remove menu file and friends
+  * New upstream release (15.12.2).
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Drop kde4 build deps
+  * Update install files
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 28 May 2016 19:34:07 +0200
 
 kmahjongg (4:15.08.3-1) unstable; urgency=medium
 
