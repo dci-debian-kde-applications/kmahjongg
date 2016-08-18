@@ -1,10 +1,11 @@
-kmahjongg (4:16.04.3-1~1.gbp823037) UNRELEASED; urgency=medium
+kmahjongg (4:16.08.0-1~1.gbp87fc17) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @823037d64c4c3226ce3ffe1d24eabf553852247a **
+  ** SNAPSHOT build @87fc172f080f0841ea98686576a4dcee9d86bb75 **
 
   * UNRELEASED
+  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 12 Jul 2016 22:12:16 +0200
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 18 Aug 2016 22:12:13 +0200
 
 kmahjongg (4:16.04.0-1) unstable; urgency=medium
 
