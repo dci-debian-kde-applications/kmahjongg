@@ -1,11 +1,17 @@
-kmahjongg (4:16.08.0-1~1.gbp87fc17) UNRELEASED; urgency=medium
+kmahjongg (4:16.08.1-1~1.gbp871a16) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @871a1670780b945c0f765fa46119d4e4ce53e56e **
+
+  [ Maximiliano Curia ]
   ** SNAPSHOT build @87fc172f080f0841ea98686576a4dcee9d86bb75 **
 
   * UNRELEASED
   * UNRELEASED
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 18 Aug 2016 22:12:13 +0200
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 08 Sep 2016 22:12:49 +0200
 
 kmahjongg (4:16.04.0-1) unstable; urgency=medium
 
