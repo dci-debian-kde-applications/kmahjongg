@@ -1,17 +1,12 @@
-kmahjongg (4:16.08.1-1~1.gbp871a16) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @871a1670780b945c0f765fa46119d4e4ce53e56e **
+kmahjongg (4:16.08.1-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
-  ** SNAPSHOT build @87fc172f080f0841ea98686576a4dcee9d86bb75 **
-
-  * UNRELEASED
-  * UNRELEASED
+  * New upstream release (16.08.1)
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 08 Sep 2016 22:12:49 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 19 Oct 2016 00:10:31 +0200
 
 kmahjongg (4:16.04.0-1) unstable; urgency=medium
 
