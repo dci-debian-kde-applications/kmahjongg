@@ -35,6 +35,8 @@ Package: kmahjongg
 Architecture: any
 Depends: kdegames-mahjongg-data-kf5, ${misc:Depends}, ${shlibs:Depends}
 Recommends: khelpcenter
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: mahjongg solitaire game
  KMahjongg is a solitaire game where the player removes matching Mahjongg tiles
  to clear the board.  A variety of tile layouts are included, as well as an
