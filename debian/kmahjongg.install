@@ -11,3 +11,5 @@ usr/share/icons/hicolor/64x64/apps/kmahjongg.png
 usr/share/icons/hicolor/scalable/apps/kmahjongg.svgz
 usr/share/kmahjongg/
 usr/share/kxmlgui5/kmahjongg/kmahjonggui.rc
+usr/share/locale/
+usr/share/metainfo/org.kde.kmahjongg.appdata.xml
