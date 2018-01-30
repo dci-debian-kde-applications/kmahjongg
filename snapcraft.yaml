@@ -1,0 +1,46 @@
+---
+name: kmahjongg
+version: 17.08.1
+summary: mahjongg solitaire game
+description: |-
+ KMahjongg is a solitaire game where the player removes matching Mahjongg tiles
+ to clear the board.  A variety of tile layouts are included, as well as an
+ editor to create new layouts.
+confinement: strict
+grade: stable
+apps:
+    kmahjongg:
+        command: kf5-launch kmahjongg
+        plugs:
+        - kde-frameworks-5-plug
+        - home
+        - x11
+        - opengl
+        - network
+        - network-bind
+        - unity7
+        - pulseaudio
+plugs:
+    kde-frameworks-5-plug:
+        content: kde-frameworks-5-all
+        interface: content
+        default-provider: kde-frameworks-5
+        target: kf5
+parts:
+    kmahjongg:
+        after:
+        - kde-frameworks-5-dev
+        - kde-frameworks-5-env
+        plugin: cmake
+        build-packages:
+        - kdoctools-dev
+        - libkf5kdegames-dev
+        - libkf5kmahjongglib-dev
+        source: https://download.kde.org/stable/applications/17.08.1/src/kmahjongg-17.08.1.tar.xz
+        configflags:
+        - "-DKDE_INSTALL_USE_QT_SYS_PATHS=ON"
+        - "-DCMAKE_INSTALL_PREFIX=/usr"
+        - "-DCMAKE_BUILD_TYPE=Release"
+        - "-DENABLE_TESTING=OFF"
+        - "-DBUILD_TESTING=OFF"
+        - "-DKDE_SKIP_TEST_SETTINGS=ON"
